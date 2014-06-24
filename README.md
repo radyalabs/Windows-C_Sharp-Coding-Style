@@ -56,9 +56,9 @@ This coding guideline only apply to C# suage and .NET framework common type syst
 
 14. Avoid use parent class name in a property
 
-```csharp
-Customer.Name not Customer.CustomerName
-```
+  ```csharp
+		Customer.Name not Customer.CustomerName
+  ```
 
 15. Try to add "Can","Is","Has" prefix to boolean variable
 16. Add "Average,Count,Sum,Min,Max" in a certain variable that reflect aggregation
@@ -182,7 +182,7 @@ Try use PascalCase
 
 Always camelCase.Avoid use single character like 'X' or 'Y' except in loop-block. Avoid using variables name that indicate an order, like text1,text2 or text3
 
-**Variables (inline)**
+**Parameters**
 
 Always camelCase
 
