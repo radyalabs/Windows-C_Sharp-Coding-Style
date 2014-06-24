@@ -46,13 +46,13 @@ This coding guideline only apply to C# suage and .NET framework common type syst
 12. Avoid use name that will be potentially conflict with .NET namespace or type
 13. Avoid redundant prefix or suffix that does not explain more about an identifier. 
 
-E.g : 
+  E.g : 
 
-```csharp
-public enum ColorsEnum { }
-public class CVehicle { }
-public struct RectangleStruct { }
-```
+  ```csharp
+	public enum ColorsEnum { }
+	public class CVehicle { }
+	public struct RectangleStruct { }
+  ```
 
 14. Avoid use parent class name in a property
 
@@ -222,18 +222,20 @@ Always camelCase
 4. Use inline comment to explain assumption, issue or an algorithm
 5. Do not use inline comment to explain obvious code. It should be self-documentted
 6. Add comment using certain keyword to classify to-do task to ease the reader
-```csharp
+
+  ```csharp
 		//TODO : Please database code here
         //UNDONE : Remove this function due to errors
         //HACK : Temporary fix until able to refactor
 
-```
+  ```
+
 7. Always use /// to describe a method
-```csharp
+  ```csharp
 	/// <summary>
     /// 
 	/// </summary>
-```
+  ```
 
 ##Language Usage##
 ###General###
@@ -250,12 +252,14 @@ Always camelCase
 1. Try to initialize variable when it is declared
 2. Always choose the simplest of data type
 3. Always use built-in C# if it is available
-```csharp
+  
+  ```csharp
 	short NOT System.Int16
 	int NOT System.Int32
 	long NOT System.Int64
 	string NOT System.String
-```
+  ```
+
 4. Always declare member variable as private. Use property for access
 5. Try to use int type for non-float value
 6. Only use long for variable that potentially  more than the int size
