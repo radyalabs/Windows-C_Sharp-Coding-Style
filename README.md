@@ -277,7 +277,8 @@ Always camelCase
 1. Avoid recursive function
 2. Do not modify item in foreach statement
 3. Avoid boolean validatoin using true or false value
-```csharp
+
+  ```csharp
 	 //bad
 	is (isvalid == true)
 	{}
@@ -286,7 +287,8 @@ Always camelCase
 	//good
 	if (isvalid)
 	{}
-```
+  ```
+  
 4. Avoid assignment in conditional statement
 5. Use swith/case statement for simple operation
 6. Use nested if/else instead of switch/case for complex operation
@@ -304,7 +306,7 @@ Always camelCase
       	<TextBox x:Name="TextBoxRoomValue"/>
   ```
   
-2. Alwayse use method/event handler na me with prefix "On<control_name><method_name>
+2. Alwayse use method/event handler na me with prefix “On<nama kontrol><nama method>”.
   
   ```xml
 	<TextBlock Tap="OnTextBlockRoomFieldTapped" x:Name="TextBlockRoomField" Text="ROOMS" FontSize="42"></TextBlock>
