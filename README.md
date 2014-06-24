@@ -80,3 +80,39 @@ public class MyClass
 
 ```
 
+**Resource or Embedded File**
+Always use PascalCase and descriptive name.
+
+**Namespace**
+Try use PascalCase and name that match project title.
+
+**Class**
+Try use PascalCase. Use noun or noun phrase for class. Add suffix or part of parent class for child class
+
+```csharp
+	private class MyClass { }
+    internal class SpecializedAtribute : Attribute { }
+    public class CustomerCollection : CollectionBase { }
+    public class CustomEventArgs : EventArgs { }
+    private struct ApplicationSettings { }
+```
+
+**Interface**
+Try use PascalCase. Always use 'i' prefix for name.
+
+```csharp
+	public interface ICustomer
+    { }
+```
+
+**Method**
+Try use PascalCase. Always use 'i' prefix for name.
+
+```csharp
+	public interface ICustomer
+    { }
+```
+
+
+
+
