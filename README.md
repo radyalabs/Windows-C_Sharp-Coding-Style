@@ -298,14 +298,14 @@ Always camelCase
 
 ##XAML Usage##
 1. Always use control name that represent its value
-```xml
+  ```xml
 	<TextBlock x:Name="TextBlockRoomField" Text="ROOMS" FontSize="42"></TextBlock>
       	<TextBox x:Name="TextBoxRoomValue"/>
-```
+  ```
 2. Alwayse use method/event handler na me with prefix "On<control_name><method_name>
-```xml
+  ```xml
 	<TextBlock Tap="OnTextBlockRoomFieldTapped" x:Name="TextBlockRoomField" Text="ROOMS" FontSize="42"></TextBlock>
-```
+  ```
 
 
 
