@@ -12,6 +12,8 @@ This coding guideline only apply to C# suage and .NET framework common type syst
 
 
 ## Naming Convention
+
+**Overview**
 * Project File 	: 	PascalCase
 * Source Files	:	PascalCase
 * Other Files		:	PascalCase
@@ -28,7 +30,7 @@ This coding guideline only apply to C# suage and .NET framework common type syst
 * Parameter		:	camelCase
 
 
-General Guide : 
+**General Guide :** 
 
 1.  Always use PascalCase and camelCase for name of entity
 2.  Avoid All CAPS and all lowercase for name
@@ -51,3 +53,25 @@ public enum ColorsEnum { }
 public class CVehicle { }
 public struct RectangleStruct { }
 ```
+
+
+14. Avoid use parent class name in a property
+
+```csharp
+Customer.Name not Customer.CustomerName
+```
+
+15. Try to add "Can","Is","Has" prefix to boolean variable
+16. Add "Average,Count,Sum,Min,Max" in a certain variable that reflect aggregation
+
+**Name and Syntax**
+
+Project File
+
+Always use PascalCase that match root namespace name
+
+RadyaLabs.csproject -> RadyaLabs.dll -> RadyaLabs
+
+Source File
+
+Always use PascalCase that match class name with file name. Avoid declare several class,enum or delegate in one file. Use descriptive name.
