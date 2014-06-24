@@ -27,7 +27,9 @@ This coding guideline only apply to C# suage and .NET framework common type syst
 * Inline Variable	:	camelCase
 * Parameter		:	camelCase
 
+
 General Guide : 
+
 1.  Always use PascalCase and camelCase for name of entity
 2.  Avoid All CAPS and all lowercase for name
 3.  Never declare variables using only case letter difference. Give meaningful name
@@ -40,7 +42,9 @@ General Guide :
 10. Abbreviation only for common term and widely accepted
 11. Never use C# keyword for identifier
 12. Avoid use name that will be potentially conflict with .NET namespace or type
-13. Avoid redundant prefix or suffix that does not explain more about an identifier. E.g : 
+13. Avoid redundant prefix or suffix that does not explain more about an identifier. 
+
+E.g : 
 
 ```csharp
 public enum ColorsEnum { }
